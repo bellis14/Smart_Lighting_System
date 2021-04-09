@@ -1,5 +1,5 @@
 # Smart Lighting System
-MSP432 microcontroller application that functions with the interrupt, I/O, and timer technologies built in to the MSP432. Using these technologies, a 
+MSP432 microcontroller application in C that functions with the interrupt, I/O, and timer technologies built in to the MSP432. Using these technologies, a 
 power efficient lighting system can be created using a PIR sensor as the input and an LED as the output. When the PIR sensor detects motion, it sends 
 a digital 1 signal to the MSP432 which triggers an interrupt to turn on the LED. When the sensor no longer detects motion a timer begins and counts for 
 approximately 5 seconds. If the sensor detects motion during those five seconds the timer is reset and begins counting again from the start with the LED 
