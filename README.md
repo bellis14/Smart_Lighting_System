@@ -5,4 +5,4 @@ a digital 1 signal to the MSP432 which triggers an interrupt to turn on the LED.
 approximately 5 seconds. If the sensor detects motion during those five seconds the timer is reset and begins counting again from the start with the LED 
 remaining on. If the timer reaches the 5 second time frame an interrupt is triggered and a check to see if the sensor is on will be evaluated and if 
 the sensor is providing a digital 0 then the LED will be turned off. This system design reduces power consumption by turning on street lights only when 
-cars are in the area. 
+cars are in the area. Additional details can be found in the full report in the Smart_lighting_system.docx file in this repository upon download.
