@@ -1,4 +1,4 @@
-# Smart Street Lighting System
+# Smart Lighting System
 MSP432 microcontroller application that functions with the interrupt, I/O, and timer technologies built in to the MSP432. Using these technologies, a 
 power efficient lighting system can be created using a PIR sensor as the input and an LED as the output. When the PIR sensor detects motion, it sends 
 a digital 1 signal to the MSP432 which triggers an interrupt to turn on the LED. When the sensor no longer detects motion a timer begins and counts for 
