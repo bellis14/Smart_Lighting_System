@@ -4,7 +4,7 @@
 
 1) Utilize interrupts, I/O, and timers on the MSP432
 2) Implement a power efficient lighting system that turns on street lights when vehicles are in the area
-________________________________________________________________________
+
 
 ## Overview
 
@@ -19,18 +19,13 @@ approximately 5 seconds. If the sensor detects motion during those five seconds 
 remaining on. If the timer reaches the 5 second time frame an interrupt is triggered and a check to see if the sensor is on will be evaluated and if 
 the sensor is providing a digital 0 then the LED will be turned off. This system design reduces power consumption by turning on street lights only when 
 cars are in the area. Additional details can be found in the full report in the Smart_lighting_system.docx file in this repository upon download.
-________________________________________________________________________
 
 ## Equipment
-
-This application requires the following parts:
-
-1 MSP432 LaunchPad with USB cable
-3 Female to Female Jumper Wires
-1 PIR motion sensor
+- 1 MSP432 LaunchPad with USB cable
+- 3 Female to Female Jumper Wires
+- 1 PIR motion sensor
 
 ## Schematic/Peripheral Connections 
 ![](system_layout.png)
-
 
 The output port of the PIR sensor labeled OUT connects the pin P1.5 on the MSP432 while the port GND of the sensor connects to a GND pin on the board and 5V on the board connects to the port labeled VCC on the sensor. The LED at pin P1.0 is built-in on the board so there is no need to include any additional wiring.
