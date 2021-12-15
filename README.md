@@ -30,7 +30,7 @@ This application requires the following parts:
 1 PIR motion sensor
 
 ## Schematic/Peripheral Connections 
-
+![](system_layout.png)
 
 
 The output port of the PIR sensor labeled OUT connects the pin P1.5 on the MSP432 while the port GND of the sensor connects to a GND pin on the board and 5V on the board connects to the port labeled VCC on the sensor. The LED at pin P1.0 is built-in on the board so there is no need to include any additional wiring.
